@@ -1,0 +1,73 @@
+html,body{
+  margin:0px;
+  padding:0px;
+  height:100%;
+  width: 100%;
+  background: #5ac9fb;
+}
+.iterm
+{
+	margin:center;
+	width: 35%;
+	height: 90%;
+	margin-right: 30%;
+	margin-left: 35%;
+}
+.iterm h1
+{
+	padding-left: 20px;
+	color: white;
+	 font-family: Arial;
+  text-align: center;
+}
+#sterm
+{
+	background-color: #f2f2f2;
+	height: 50px;
+	width: 420px;
+	margin-left: 20px;
+	border-radius: 10px 10px 10px 10px;
+}
+#sterm input
+{
+	margin-top: 10px;
+	height: 30px;
+	width: 60%;
+	margin-left: 15px;
+	border: none;
+	background-color: transparent;
+	font-size: 16px;
+	
+}
+#sterm button
+{
+	width: 130px;
+	height: 32px;
+	background-color: lightblue;
+	border:none;
+}
+
+#sterm input:focus
+{
+	outline: none;
+}
+#tterm
+{
+background-color: white;
+margin-top: 70px;	
+height: auto;
+width: 93%;
+margin-left: 3%;
+border-radius: 5px 5px 5px 5px;
+justify-content: space-between;
+  display: flex; 
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+#tterm label
+{
+	font-size: 20px;
+	border-bottom: 1px solid #ddd;
+
+ 
+}
